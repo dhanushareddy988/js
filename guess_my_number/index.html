@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Guess my number</title>
+  </head>
+  <body class="container">
+    <header>
+      <h1>Guess My Number!</h1>
+
+      <button class="btn again">Again!</button>
+      <p class="btw">(Between 1 and 20)</p>
+
+      <div class="break">?</div>
+    </header>
+    <main class="row">
+      <section class="col-sm-6" style="text-align: center">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="col-sm-6" style="text-align: center">
+        <p class="guessing-content">Start Guessing...</p>
+        <p class="score">
+          &#x1F4AF; Score: <span class="score-change">20</span>
+        </p>
+        <p class="high">
+          &#x1F446; Highest Score : <span class="high-score">0</span>
+        </p>
+      </section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
